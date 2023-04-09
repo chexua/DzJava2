@@ -18,7 +18,7 @@ public class Peregruz {
     public int[] numArr;
     public void peregruz() {
         String string;
-        System.out.println("Я пустой метод");
+        System.out.println("Я пустой");
     }
 
     public void peregruz(String string) {
