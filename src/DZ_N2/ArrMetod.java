@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 public class ArrMetod {
      // 1) Написать метод, принимающий в качестве параметра массив целых чисел. И выводит на экран
      // все четные числа списком, а также нечетные числа списком.
+
     public static int[] even(int[] raw) {
         return IntStream.of(raw).filter(x->x%2==0).toArray();
     }
