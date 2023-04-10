@@ -11,7 +11,7 @@ public class ArrMetod {
         return IntStream.of(raw).filter(x->x%2==0).toArray();
     }
     public static int[] odd(int[] raw) {
-        return IntStream.of(raw).filter(x->x%2==1).toArray();
+        return IntStream.of(raw).filter(x->x%2!=0).toArray();
     }
 
     public static void getev () {
